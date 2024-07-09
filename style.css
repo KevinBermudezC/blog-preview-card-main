@@ -28,18 +28,75 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 16px;
+    margin-bottom: 10px; /* Añadido margen inferior para el footer */
 }
+
 .container__blog{
     background-color: var(--White);
     border-radius: 20px;
     width: 384px;
-    border-style: 1px solid var(--Black);
+    border: 1px solid var(--Black);
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    align-items: flex-start;
+    position: relative;
+    box-shadow: 5px 5px 0 var(--Black);
+}
+.image{
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.category{
+    background-color: var(--primaryYellow);
+    padding: 4px 8px; /* Añadido padding */
+    border-radius: 4px; /* Añadido border-radius */
+    font-weight: bold; /* Para resaltar la categoría */
+    width: fit-content; /* Para que el tamaño se ajuste al contenido */
+    height: 29px;
+}
+.date {
+    color: var(--Black); /* Estilo para la fecha */
+    font-size: 0.875rem; /* Tamaño de fuente más pequeño */
 }
 
+.title {
+    font-size: 1.5rem; /* Tamaño de fuente para el título */
+    font-weight: bold; /* Negrita para el título */
+    color: var(--Black); /* Color del título */
+}
+
+.description {
+    color: var(--Grey); /* Color de la descripción */
+    font-size: 1rem; /* Tamaño de fuente para la descripción */
+}
+.box-author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 16px; /* Añadido margen superior */
+}
+
+.avatar {
+    width: 32px;
+    height: 32px; /* Asegura que la imagen del avatar sea cuadrada */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+}
+
+.author {
+    color: var(--Black); /* Color del autor */
+    font-weight: bold; /* Negrita para el nombre del autor */
+}
 /* Footer */
 .attribution { 
     font-size: 11px; 
-    text-align: center; 
+    text-align: center;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
