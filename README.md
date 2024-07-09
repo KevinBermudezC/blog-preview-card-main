@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![imagen](./screenshot.jpg)
+![imagen](https://github.com/KevinBermudezC/blog-preview-card-main/blob/ff5b00e60d93f7f5a3be7be507d0fe201d0fce20/assets/images/Screenshot%20blog%20card.png)
 
 
 ### Links
